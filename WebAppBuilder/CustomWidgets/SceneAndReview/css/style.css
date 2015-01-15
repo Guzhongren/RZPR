@@ -1,0 +1,7 @@
+.scene-and-review h3 {
+  font-size: 1.2em;
+}
+.scene-and-review h3, p {
+  margin-top: 0;
+}
+/* add additional custom styles */

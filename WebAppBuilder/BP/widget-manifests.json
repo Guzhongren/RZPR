@@ -1,0 +1,194 @@
+{
+  "widgets/Header/Widget": {
+    "name": "Header",
+    "2D": true,
+    "3D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "hasConfig": false,
+      "inPanel": false
+    }
+  },
+  "widgets/Footer/Widget": {
+    "name": "Footer",
+    "2D": true,
+    "3D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasConfig": false,
+      "hasSettingPage": false
+    }
+  },
+  "widgets/SidebarController/Widget": {
+    "name": "SidebarController",
+    "label": "Sidebar Controller",
+    "2D": true,
+    "3D": true,
+    "inPanel": false,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasLocale": false,
+      "isController": true,
+      "hasConfig": false
+    }
+  },
+  "widgets/BasemapGallery/Widget": {
+    "name": "BasemapGallery",
+    "label": "Basemap Gallery",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "hasLocale": false
+    }
+  },
+  "widgets/AttributeTable/Widget": {
+    "name": "AttributeTable",
+    "label": "Attribute Table",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasUIFile": false
+    }
+  },
+  "widgets/ComparingSitesAnalyses/Widget": {
+    "name": "ComparingSitesAnalyses",
+    "label": "Comparing Sites Analyses",
+    "2D": true,
+    "3D": false,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "TODO: your name here",
+    "description": "A custom Web AppBuilder widget.",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": true,
+      "hasLocale": true,
+      "hasStyle": true,
+      "hasConfig": true,
+      "hasUIFile": true
+    }
+  },
+  "widgets/SceneAndReview/Widget": {
+    "name": "SceneAndReview",
+    "label": "Scene And Review",
+    "2D": true,
+    "3D": false,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "TODO: your name here",
+    "description": "A custom Web AppBuilder widget.",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": true,
+      "hasLocale": true,
+      "hasStyle": true,
+      "hasConfig": true,
+      "hasUIFile": true
+    }
+  },
+  "widgets/Chart/Widget": {
+    "name": "Chart",
+    "type": "widget",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/Draw/Widget": {
+    "name": "Draw",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/Edit/Widget": {
+    "name": "Edit",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/FirstWidget/Widget": {
+    "name": "FirstWidget",
+    "label": "First Widget",
+    "2D": true,
+    "3D": false,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "TODO: your name here",
+    "description": "A custom Web AppBuilder widget.",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": true,
+      "hasLocale": true,
+      "hasStyle": true,
+      "hasConfig": true,
+      "hasUIFile": true
+    }
+  },
+  "widgets/SayHello/Widget": {
+    "name": "SayHello",
+    "label": "Say Hello",
+    "2D": true,
+    "3D": false,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "TODO: your name here",
+    "description": "A custom Web AppBuilder widget.",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": true,
+      "hasLocale": true,
+      "hasStyle": true,
+      "hasConfig": true,
+      "hasUIFile": true
+    }
+  },
+  "widgets/Bookmark/Widget": {
+    "name": "Bookmark",
+    "2D": true,
+    "3D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "the bookmark widget which support 2D and 3D map",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  }
+}

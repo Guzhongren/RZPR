@@ -1,0 +1,83 @@
+{
+    "widgetName": "SceneAndReview",
+    "detailTime":"2014年12月12日11时",
+
+     "scene":{
+     "id":"sceneButton",
+     "class":"gzr-btn",
+     "label":"实况"
+     },
+
+     "review":{
+     "id":"reviewButton",
+     "class":"gzr-btn",
+     "label":"回顾"
+     },
+
+     "MonitorSites":{
+     "id":"ckMonitorSites",
+     "label":"监测站点",
+     "value":"ckMonitorSitesToTrue",
+     "readOnly":true,
+     "checked":true,
+    "tooltip":"ckMonitorSites",
+    "name":"ckMonitorSites"
+    },
+
+    "sitesLabel":{
+        "addData":"叠加数据 : ",
+        "sites":"监测站点"
+ },
+
+ "wind":{
+    "id":"ckWind",
+    "label":"风场",
+    "value":"ckwind",
+    "readOnly":true,
+    "tooltip":"风场",
+    "name":"ckWind"
+ },
+
+     "monitorLabel":{
+        "label":"同化区域:",
+        "id":"ckWindDomain",
+        "options":[
+            {"label":"全国","value":"allCounty","selected":true},
+            {"label":"全国一","value":"allCounty1"},
+            {"label":"全国二","value":"allCounty2"}],
+        "class":"dijitSelect gzr-comboBox"
+     },
+
+     "assimilateMode":{
+        "label":"同化模式:",
+        "id":"ckAssimilateMode",
+        "options":[
+            {"label":"NAQPMS","value":"naqpms","selected":true}],
+        "class":"dijitSelect gzr-comboBox"
+        },
+    "polluter":{
+        "label":"污染物质:",
+        "id":"ckPolluter",
+        "options":[{"label":"<span>SO<sub>2</sub></span>","value":"so2","selected":true},
+            {"label":"<span>NO<sub>2</sub></span>","value":"no2"},
+            {"label":"<span>PM<sub>10</sub></span>","value":"pm10"},
+            {"label":"<span>PM<sub>2.5</sub></span>","value":"pm2.5"},
+            {"label":"<span>CO</span>","value":"co"},
+            {"label":"<span>O<sub>3</sub></span>","value":"o3"}
+        ],
+        "class":"dijitSelect gzr-comboBox"
+    },
+    "timeSlider":{
+        "loop":true,
+        "thumbCount":24,
+        "timeExtent":{
+            "startTime":"2014-12-12 17:00:00",
+            "endTime":"2014-12-13 17:00:00",
+            "timeInterval": 1
+        },
+        "thumbMovingRate": 2000,
+        "singleThumbAsTimeInstant": true,
+        "initThumbIndexes": [{"start":23},{"end":24}]
+    }
+
+}

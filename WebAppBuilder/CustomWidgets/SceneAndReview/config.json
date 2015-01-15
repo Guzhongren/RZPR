@@ -1,0 +1,17 @@
+{
+  "widgetName": "SceneAndReview",
+    "detailTime":"2014年12月12日11时",
+    "timerSlider": {
+        "loop":true,
+        "thumbCount":1,
+        "timeExtent":{
+            "startTime": "2014-12-12 17:00:00",//yyyy-MM-dd HH:mm:ss
+            "endTime":   "2014-12-12 18:00:00",
+            "timeInterval": 1
+        },
+        "thumbMovingRate": 2000,
+        "singleThumbAsTimeInstant": true,
+        "initThumbIndexes": [23, 24]
+    }
+
+}
